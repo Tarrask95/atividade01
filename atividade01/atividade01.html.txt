@@ -1,0 +1,54 @@
+<div class="container">
+  <link rel="stylesheet" href="css/style.css" />
+  <h1>X1 of Legends</h1>
+
+  <div class="links">
+     <h3>Escolha seu char:</h3>
+    <button id="pedra">Malphite (Pedra)</button>
+    <button id="papel">Twitch (Papel)</button>
+    <button id="tesoura">Camille (Tesoura)</button>
+    
+  </div>
+  
+  <div class="computer">
+      <form id="pchoose">
+      <p>
+        <label for="pc">Escolha do CPU:</label>
+        <input type="text" name="pc" readonly>
+      </p>
+    </form>
+  </div>
+ 
+<div class="count">
+    <form id="contar">
+     <label for="vic">Vitórias</label>
+     <input type="text" name="vic" readonly>
+      <label for="lose">Derrotas</label>
+     <input type="text" name="lose" readonly>
+      <label for="empate">Empate</label>
+      <input type="text" name="empate" readonly>
+      
+      <input type="reset" value="Reset" id="reset">
+     </form>
+</div>
+  
+<div id="choose">
+    <div class="escolha">
+      <div id="win">
+        <h2 class="h2">Ganhou</h2>
+        <span>GGzão</span>
+      </div>  
+  
+      <div id="lose">
+        <h2 class="h2">Perdeu<h2>
+        <span>Solado parça</span>
+      </div>
+      <div id="draw">
+        <h2 class="h2">Empate</h2>
+        <span> Dá RMK aí</span>
+    </div> 
+  </div>
+ </div>
+  
+      
+ 
